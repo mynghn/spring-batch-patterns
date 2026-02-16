@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    test-framework:
+      url: jdbc:h2:mem:test-main;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+      username: sa
+      password:
+    test-main:
+      url: jdbc:h2:mem:test-main;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+      username: sa
+      password:
+    test-external:
+      url: jdbc:h2:mem:test-external;MODE=MariaDB;DATABASE_TO_LOWER=TRUE
+      username: sa
+      password:
